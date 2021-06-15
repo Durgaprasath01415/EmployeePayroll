@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NIOFileAPITest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-15T03:19:24" hostname="DESKTOP-BS45UV7" time="0.19">
+  <properties/>
+  <testcase name="givenPath_WhenChecked_ThenConfirm" classname="NIOFileAPITest" time="0.19"/>
+  <system-out><![CDATA[C:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp1
+C:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp2
+C:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp3
+C:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp4
+C:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp5
+C:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp6
+C:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp7
+C:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp8
+C:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp9
+C:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp1
+C:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp2
+C:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp3
+C:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp4
+C:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp5
+C:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp6
+C:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp7
+C:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp8
+C:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp9
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
