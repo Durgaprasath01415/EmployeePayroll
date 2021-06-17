@@ -1,18 +1,5 @@
-FC:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp1
-FC:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp2
-FC:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp3
-FC:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp4
-FC:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp5
-FC:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp6
-FC:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp7
-FC:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp8
-FC:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp9
-FC:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp1
-FC:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp2
-FC:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp3
-FC:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp4
-FC:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp5
-FC:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp6
-FC:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp7
-FC:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp8
-FC:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp9
+?EmployeePayrollData{id=1, name='Jeff Bezos', salary=100000.0}
+?EmployeePayrollData{id=2, name='Bill Gates', salary=200000.0}
+DEmployeePayrollData{id=3, name='Mark Zuckerberg', salary=300000.0}
+No of Entries in the File : 3
+

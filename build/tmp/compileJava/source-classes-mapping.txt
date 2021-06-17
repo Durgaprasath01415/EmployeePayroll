@@ -2,8 +2,8 @@ EmployeePayrollData.java
  EmployeePayrollData
 EmployeePayrollFileIOService.java
  EmployeePayrollFileIOService
-FileUtils.java
- FileUtils
 EmployeePayrollService.java
  EmployeePayrollService
  EmployeePayrollService$IOService
+FileUtils.java
+ FileUtils
