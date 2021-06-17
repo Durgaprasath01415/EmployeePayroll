@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="NIOFileAPITest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-15T03:19:24" hostname="DESKTOP-BS45UV7" time="0.19">
+<testsuite name="NIOFileAPITest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-06-17T16:33:53" hostname="DESKTOP-BS45UV7" time="0.431">
   <properties/>
-  <testcase name="givenPath_WhenChecked_ThenConfirm" classname="NIOFileAPITest" time="0.19"/>
+  <testcase name="givenPath_WhenChecked_ThenConfirm" classname="NIOFileAPITest" time="0.189"/>
+  <testcase name="numberOfEmployeeEntryTest" classname="NIOFileAPITest" time="0.241"/>
   <system-out><![CDATA[C:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp1
 C:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp2
 C:\Users\Durga Prasath\IdeaProjects\FilesCreated\PLAY_WITH_NIO\temp3
