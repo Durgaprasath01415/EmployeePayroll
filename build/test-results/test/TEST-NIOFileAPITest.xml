@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="NIOFileAPITest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-18T13:42:20" hostname="DESKTOP-BS45UV7" time="0.019">
-  <properties/>
-  <testcase name="givenFile_onReadingFromFile_shouldMatchEmployeeCount" classname="NIOFileAPITest" time="0.019"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
