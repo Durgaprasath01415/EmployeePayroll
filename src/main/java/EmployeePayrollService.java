@@ -1,8 +1,5 @@
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class EmployeePayrollService {
     public enum IOService {
@@ -86,6 +83,29 @@ public class EmployeePayrollService {
         System.out.println(this.employeePayrollList);
     }
 
+    public void addEmployeeToPayrollWithThread(List<EmployeePayrollData> employeePayrollDataList) {
+        Map<Integer, Boolean> employeeAdditionStatus = new HashMap<Integer, Boolean>();
+        employeePayrollDataList.forEach(employeePayrollData -> {
+            Runnable task = () ->{
+                employeeAdditionStatus.put(employeePayrollData.hashCode(),false);
+                System.out.println("Employee Being Added: " +Thread.currentThread().getName());
+                this.addEmployeeToPayroll(employeePayrollData.name, employeePayrollData.salary,
+                        employeePayrollData.startDate,employeePayrollData.gender);
+                employeeAdditionStatus.put(employeePayrollData.hashCode(),true);
+                System.out.println("Employee Added: " +Thread.currentThread().getName());
+            };
+            Thread thread = new Thread(task, employeePayrollData.name);
+            thread.start();
+        });
+        while (employeeAdditionStatus.containsValue(false)) {
+            try {
+                Thread.sleep(10);
+            } catch (InterruptedException e) {
+            }
+        }
+        System.out.println(this.employeePayrollList);
+    }
+
     public void addEmployeeToPayroll(String name, double salary, LocalDate startDate, char gender) {
         employeePayrollList.add(employeePayrollDBService.addEmployeeToPayroll(name,salary,startDate,gender));
     }
@@ -96,7 +116,6 @@ public class EmployeePayrollService {
         else if (ioService.equals(IOService.FILE_IO)) {
             EmployeePayrollFileIOService.writeData(employeePayrollList);
         }
-
     }
 
     public long countEntries(IOService ioService) {
