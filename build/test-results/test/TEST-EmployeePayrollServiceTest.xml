@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="EmployeePayrollServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-25T05:53:17" hostname="DESKTOP-BS45UV7" time="1.491">
+<testsuite name="EmployeePayrollServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-28T13:24:47" hostname="DESKTOP-9KBRA3G" time="0.748">
   <properties/>
-  <testcase name="givenEmployees_WhenWrittenToFile_ShouldMatchEmployeeEntries" classname="EmployeePayrollServiceTest" time="0.168"/>
-  <testcase name="givenNewSalaryForEmployee_WhenUpdated_ShouldMatch" classname="EmployeePayrollServiceTest" time="1.283"/>
-  <testcase name="givenEmployeePayrollInDB_WhenRetrieved_ShouldMatchEmployeeCount" classname="EmployeePayrollServiceTest" time="0.039"/>
-  <system-out><![CDATA[EmployeePayrollData{id=1, name='Jeff Bezos', salary=100000.0}
-EmployeePayrollData{id=2, name='Bill Gates', salary=200000.0}
-EmployeePayrollData{id=3, name='Mark Zuckerberg', salary=300000.0}
-No of Entries of Employees Pay in the File : 3
-Connecting to database:jdbc:mysql://localhost:3306/payroll_service?useSSL=falseConnection is successful!!!!com.mysql.cj.jdbc.ConnectionImpl@2097ffd0Connecting to database:jdbc:mysql://localhost:3306/payroll_service?useSSL=falseConnection is successful!!!!com.mysql.cj.jdbc.ConnectionImpl@288aa43dConnecting to database:jdbc:mysql://localhost:3306/payroll_service?useSSL=falseConnection is successful!!!!com.mysql.cj.jdbc.ConnectionImpl@31de907Connecting to database:jdbc:mysql://localhost:3306/payroll_service?useSSL=falseConnection is successful!!!!com.mysql.cj.jdbc.ConnectionImpl@73c4768d]]></system-out>
+  <testcase name="givenEmployeeDataInJSONServer_WhenRetrieved_ShouldMatchTheCount" classname="EmployeePayrollServiceTest" time="0.748"/>
+  <system-out><![CDATA[EMPLOYEE PAYROLL IN JSONServer: 
+[
+  {
+    "id": 1,
+    "name": "ABCD",
+    "company": "bl"
+  },
+  {
+    "id": 2,
+    "name": "amol",
+    "company": "bl"
+  }
+]
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
