@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="EmployeePayrollServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-28T13:24:47" hostname="DESKTOP-9KBRA3G" time="0.748">
+<testsuite name="EmployeePayrollServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-29T03:35:00" hostname="DESKTOP-9KBRA3G" time="0.801">
   <properties/>
-  <testcase name="givenEmployeeDataInJSONServer_WhenRetrieved_ShouldMatchTheCount" classname="EmployeePayrollServiceTest" time="0.748"/>
+  <testcase name="givenNewEmployee_WhenAdded_ShouldMatch201ResponseAndCount" classname="EmployeePayrollServiceTest" time="0.801"/>
   <system-out><![CDATA[EMPLOYEE PAYROLL IN JSONServer: 
 [
   {
     "id": 1,
-    "name": "ABCD",
-    "company": "bl"
+    "name": "Jeff Bezos",
+    "gender": "M",
+    "salary": 100000,
+    "startData": {
+      "year": 2020,
+      "month": 11,
+      "day": 1
+    }
   },
   {
     "id": 2,
-    "name": "amol",
-    "company": "bl"
+    "name": "Bill Gates",
+    "gender": "M",
+    "salary": 200000,
+    "startData": {
+      "year": 2020,
+      "month": 11,
+      "day": 1
+    }
   }
 ]
 ]]></system-out>

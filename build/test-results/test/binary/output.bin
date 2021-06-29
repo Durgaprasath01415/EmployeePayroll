@@ -2,12 +2,24 @@
 [
   {
     "id": 1,
-    "name": "ABCD",
-    "company": "bl"
+    "name": "Jeff Bezos",
+    "gender": "M",
+    "salary": 100000,
+    "startData": {
+      "year": 2020,
+      "month": 11,
+      "day": 1
+    }
   },
   {
     "id": 2,
-    "name": "amol",
-    "company": "bl"
+    "name": "Bill Gates",
+    "gender": "M",
+    "salary": 200000,
+    "startData": {
+      "year": 2020,
+      "month": 11,
+      "day": 1
+    }
   }
 ]
