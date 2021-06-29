@@ -41,7 +41,7 @@ public class EmployeePayrollServiceTest{
     public void givenNewSalaryForEmployee_WhenUpdated_ShouldMatch() {
         EmployeePayrollService employeePayrollService = new EmployeePayrollService();
         List<EmployeePayrollData> employeePayrollData = employeePayrollService.readEmployeePayrollData(EmployeePayrollService.IOService.DB_IO);
-        employeePayrollService.updateEmployeeSalary("Bill",3000000.00);
+        employeePayrollService.updateEmployeeSalary("Bill",3000000.00, EmployeePayrollService.IOService.DB_IO);
         boolean result = employeePayrollService.checkEmployeePayrollInSyncWithDB("Bill");
         Assert.assertTrue(result);
     }
@@ -166,5 +166,23 @@ public class EmployeePayrollServiceTest{
         }
         long entries = employeePayrollService.countEntries(EmployeePayrollService.IOService.REST_IO);
         Assert.assertEquals(6,entries);
+    }
+
+    @Test
+    public void givenNewSalaryForEmployee_WHenUpdated_ShouldMatch200Response(){
+        EmployeePayrollService employeePayrollService;
+        EmployeePayrollData[] arrayOfEmps = getEmployeeList();
+        employeePayrollService = new EmployeePayrollService(Arrays.asList(arrayOfEmps));
+
+        employeePayrollService.updateEmployeeSalary("Anil",300000.00, EmployeePayrollService.IOService.REST_IO);
+        EmployeePayrollData employeePayrollData = employeePayrollService.getEmployeePayrollData("Anil");
+
+        String empJson = new Gson().toJson(employeePayrollData);
+        RequestSpecification requestSpecification = RestAssured.given();
+        requestSpecification.header("Content-Type","application/json");
+        requestSpecification.body(empJson);
+        Response response = requestSpecification.put("/employees/" +employeePayrollData.id);
+        int statusCode = response.getStatusCode();
+        Assert.assertEquals(200,statusCode);
     }
 }

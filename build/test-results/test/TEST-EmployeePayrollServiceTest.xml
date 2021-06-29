@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="EmployeePayrollServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-29T03:51:51" hostname="DESKTOP-9KBRA3G" time="0.854">
+<testsuite name="EmployeePayrollServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-29T04:19:08" hostname="DESKTOP-9KBRA3G" time="0.794">
   <properties/>
-  <testcase name="givenListOfEmployee_WhenAdded_ShouldMatch201ResponseAndCount" classname="EmployeePayrollServiceTest" time="0.854"/>
+  <testcase name="givenNewSalaryForEmployee_WHenUpdated_ShouldMatch200Response" classname="EmployeePayrollServiceTest" time="0.794"/>
   <system-out><![CDATA[EMPLOYEE PAYROLL IN JSONServer: 
 [
   {
@@ -31,6 +31,39 @@
     "name": "Mark Zuckerberg",
     "gender": "M",
     "salary": 300000,
+    "startDate": {
+      "year": 2021,
+      "month": 6,
+      "day": 29
+    }
+  },
+  {
+    "id": 4,
+    "name": "Sunder",
+    "gender": "M",
+    "salary": 600000,
+    "startDate": {
+      "year": 2021,
+      "month": 6,
+      "day": 29
+    }
+  },
+  {
+    "id": 5,
+    "name": "Mukesh",
+    "gender": "M",
+    "salary": 1000000,
+    "startDate": {
+      "year": 2021,
+      "month": 6,
+      "day": 29
+    }
+  },
+  {
+    "id": 6,
+    "name": "Anil",
+    "gender": "M",
+    "salary": 200000,
     "startDate": {
       "year": 2021,
       "month": 6,
