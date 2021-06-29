@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="EmployeePayrollServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-29T04:19:08" hostname="DESKTOP-9KBRA3G" time="0.794">
+<testsuite name="EmployeePayrollServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-29T04:36:59" hostname="DESKTOP-9KBRA3G" time="0.793">
   <properties/>
-  <testcase name="givenNewSalaryForEmployee_WHenUpdated_ShouldMatch200Response" classname="EmployeePayrollServiceTest" time="0.794"/>
+  <testcase name="givenEmployeeToDelete_WhenDeleted_ShouldMatch200ResponseAndCount" classname="EmployeePayrollServiceTest" time="0.793"/>
   <system-out><![CDATA[EMPLOYEE PAYROLL IN JSONServer: 
 [
   {

@@ -2,6 +2,7 @@ import java.time.LocalDate;
 import java.util.*;
 
 public class EmployeePayrollService {
+
     public enum IOService {
         CONSOLE_IO, FILE_IO, DB_IO, REST_IO
     }
@@ -67,6 +68,13 @@ public class EmployeePayrollService {
         }
         EmployeePayrollData employeePayrollData = this.getEmployeePayrollData(name);
         if(employeePayrollData != null) employeePayrollData.salary = salary;
+    }
+
+    public void deleteEmployeePayroll(String name, IOService ioService) {
+        if (ioService.equals(IOService.DB_IO)) {
+            EmployeePayrollData employeePayrollData = this.getEmployeePayrollData(name);
+            employeePayrollList.remove(employeePayrollData);
+        }
     }
 
     public EmployeePayrollData getEmployeePayrollData(String name) {
